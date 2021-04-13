@@ -1,10 +1,10 @@
 puts "En quelle année es tu née?"
-date1 = gets.chomp.to_i
-date2 = 2021 - date1
-date2.times do |i|
-  if (date2 - i) == i
-    puts "Il y a #{date2 - i} ans tu avais la moitié de l'âge que tu as aujourd'hui"
+birth_year = gets.chomp.to_i
+age = 2021 - birth_year
+age.times do |i|
+  if (age - i) == i
+    puts "Il y a #{age - i} ans tu avais la moitié de l'âge que tu as aujourd'hui"
   else
-    puts "Il y a #{(date2 - i)} ans, tu avais : #{i} ans"
+    puts "Il y a #{(age - i)} ans, tu avais : #{i} ans"
   end
 end

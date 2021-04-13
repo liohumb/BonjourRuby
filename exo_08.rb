@@ -1,6 +1,7 @@
 puts "Dis moi un chiffre"
-chiffre = gets.chomp.to_i + 1
+print "> "
+number = gets.chomp.to_i + 1
 
-chiffre.times do |i|
-  puts "#{chiffre - i - 1}"
+number.times do |i|
+  puts "#{number - i - 1}"
 end

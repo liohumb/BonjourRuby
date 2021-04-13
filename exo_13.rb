@@ -1,5 +1,9 @@
-arr = []
+email_list = []
 50.times do |i|
-  arr.push("jean.dupont.#{i + 1}@mail.com")
+  if i<9
+    email_list.push("jean.dupont.0#{i + 1}@mail.com")
+  else
+    email_list.push("jean.dupont.#{i + 1}@mail.com")
+  end
 end
-puts "#{arr}"
+puts "#{email_list}"

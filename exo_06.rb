@@ -1,6 +1,6 @@
 puts "Dis moi un chiffre"
-chiffre = gets.chomp
-chiffre2 = chiffre.to_i - 1
-chiffre2.times do
-  puts "Salut, ça farte ?"
+number = gets.chomp.to_i - 1
+
+number.times do
+  puts "Bonjour toi!"
 end
