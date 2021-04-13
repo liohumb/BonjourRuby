@@ -4,9 +4,9 @@ print ">"
 nombre = gets.chomp.to_i
 x = 1
 y = nombre -1
- puts "Voici la pyramide :"
+
 if(nombre >= 1) & (nombre <= 25)
-  then
+  puts "Voici la pyramide :"
     nombre.times do
       y -= 1
       x.times do
