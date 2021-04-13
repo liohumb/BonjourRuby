@@ -1,0 +1,1 @@
+Exercice validant Ruby THP
